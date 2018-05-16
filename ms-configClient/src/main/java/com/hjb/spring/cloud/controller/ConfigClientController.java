@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConfigClientController {
 
 
-    @Value("info.profile")
+    @Value("${info.profile}")
     private String profile;
 
 
