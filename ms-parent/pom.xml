@@ -9,8 +9,13 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>../ms-configServer</module>
-        <module>../ms-configClient</module>
+        <module>../ms-discoveryServer</module>
+        <module>../ms-configClient-base</module>
+        <module>../ms-configClient-update</module>
+        <module>../ms-configServer-base</module>
+        <module>../ms-configServer-update</module>
+        <module>../ms-configServer-auth-security</module>
+        <module>../ms-configServer-jdbc</module>
     </modules>
 
 
